@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #222222;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  background-color: #D9D9D9;
+  width: 100%;
+  height: 28px;
+  border-bottom: 1px solid #BEBEBE;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  padding: 0 10px;
+}
+
+.nav-main ul,
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.nav-main a {
+  color: #222222;
+  font-weight: 500;
+  margin-right: 15px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="text-scale" content="scale">
+
+  <title>nir - A text-editor under development</title>
+
+  <script src="/js/render-blocking-scripts.js"></script>
+  <script>
+    document.documentElement.classList.replace('no-js', 'js');
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/print.css" media="print">
+
+  <script src="/js/non-render-blocking-script.js" type="module"></script>
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="canonical" href="https://web.site/page">
+  <link rel="alternate" type="text/markdown" href="https://web.site/page.md">
+  <link rel="me" href="https://mastodon.social/@username">
+  <link rel="site.standard.publication" href="at://[DID]/site.standard.publication/[RKEY]">
+
+  <meta name="description" content="Page description">
+  <meta property="og:image" content="https://web.site/sm.jpg">
+  <meta property="og:url" content="https://web.site/page">
+  <meta name="theme-color" content="#FF5302">
+  <meta property="fediverse:creator" content="@mysticmode@ieji.de" >
+</head>
+
+<body>
+  <header class="site-header">
+    <a href="" class="logo">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M0 0H24V24H0V0Z" fill="#D9D9D9"/>
+	<path d="M5.82353 20.4882V19.7894H5.84471C6.16941 19.7894 6.45176 19.7682 6.69176 19.7259C6.94588 19.6835 7.14353 19.6059 7.28471 19.4929C7.44 19.38 7.51765 19.2247 7.51765 19.0271V11.2553C7.51765 11.0435 7.46118 10.8812 7.34824 10.7682C7.24941 10.6553 7.08706 10.5635 6.86118 10.4929C6.64941 10.4224 6.38118 10.3588 6.05647 10.3024L5.82353 10.26V9.56118H9.25412V11.7847L9.40235 11.9965V19.5776C9.40235 19.62 9.48 19.6553 9.63529 19.6835C9.79059 19.7118 9.98118 19.74 10.2071 19.7682C10.4471 19.7824 10.6871 19.7894 10.9271 19.7894H10.9482V20.4882H5.82353ZM18.0635 20.4882H12.9812V19.7894C13.1788 19.7894 13.3976 19.7824 13.6376 19.7682C13.8776 19.7541 14.0824 19.7329 14.2518 19.7047C14.4212 19.6624 14.5059 19.62 14.5059 19.5776V12.8012C14.5059 12.18 14.4353 11.6859 14.2941 11.3188C14.1671 10.9376 13.9624 10.6624 13.68 10.4929C13.4118 10.3235 13.0588 10.2388 12.6212 10.2388C12.1271 10.2388 11.6682 10.3518 11.2447 10.5776C10.8353 10.7894 10.4471 11.1071 10.08 11.5306C9.71294 11.94 9.35294 12.4412 9 13.0341L8.72471 12.3353C9.12 11.7 9.52235 11.1635 9.93176 10.7259C10.3553 10.2882 10.8212 9.94941 11.3294 9.70941C11.8376 9.46941 12.4235 9.34941 13.0871 9.34941C13.7647 9.34941 14.3506 9.47647 14.8447 9.73059C15.3529 9.98471 15.7341 10.3659 15.9882 10.8741C16.2565 11.3682 16.3906 11.9965 16.3906 12.7588V19.0271C16.3906 19.2247 16.4612 19.38 16.6024 19.4929C16.7435 19.6059 16.9412 19.6835 17.1953 19.7259C17.4494 19.7682 17.7318 19.7894 18.0424 19.7894H18.0635V20.4882Z" fill="#383838"/>
+	<path d="M13.2565 5.68235C12.9859 5.68235 12.7329 5.64118 12.4976 5.55882C12.2741 5.46471 12.0565 5.35294 11.8447 5.22353C11.6329 5.09412 11.4271 4.97059 11.2271 4.85294C11.0271 4.72353 10.8271 4.61176 10.6271 4.51765C10.4271 4.42353 10.2329 4.37647 10.0447 4.37647C9.80941 4.37647 9.60941 4.43529 9.44471 4.55294C9.29177 4.65882 9.16823 4.81177 9.07412 5.01177C8.98 5.2 8.90353 5.42353 8.84471 5.68235L8.28 5.54118C8.36235 5.11765 8.48588 4.74706 8.65059 4.42941C8.82706 4.1 9.05059 3.84118 9.32118 3.65294C9.60353 3.46471 9.94471 3.37059 10.3447 3.37059C10.6153 3.37059 10.8682 3.41765 11.1035 3.51176C11.3388 3.59412 11.5624 3.7 11.7741 3.82941C11.9859 3.94706 12.1859 4.07059 12.3741 4.2C12.5741 4.32941 12.7682 4.44118 12.9565 4.53529C13.1565 4.61765 13.3565 4.65882 13.5565 4.65882C13.8035 4.65882 14.0035 4.6 14.1565 4.48235C14.3212 4.35294 14.4565 4.18824 14.5624 3.98824C14.6682 3.78824 14.7565 3.57647 14.8271 3.35294L15.3918 3.51176C15.2976 3.80588 15.1918 4.08235 15.0741 4.34118C14.9565 4.6 14.8153 4.83529 14.6506 5.04706C14.4859 5.24706 14.2859 5.40588 14.0506 5.52353C13.8271 5.62941 13.5624 5.68235 13.2565 5.68235Z" fill="#383838"/>
+      </svg>
+    </a>
+    <nav class="nav-main">
+      <ul>
+	<li>
+	  <a href=""><u>F</u>ile</a>
+	</li>
+	<li>
+	  <a href=""><u>E</u>dit</a>
+	</li>
+      </ul>
+    </nav>
+  </header>
+  <script src="/js/non-render-blocking-script.js"></script>
+</body>
+</html>
